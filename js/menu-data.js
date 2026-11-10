@@ -14,8 +14,8 @@ const FAV = [ // [file foto, emoji cadangan, nama, harga, deskripsi]
 const BANNER = [ // [foto, emoji cadangan, tema warna, judul, teks, tombol, tujuan]
  ['banner-1.png','🐟','','ANEKA SERUIT RUMAH MAKAN BUNDA FITRI','Pindang, ikan bakar, seruit, sampai seafood. Menu ikan sudah termasuk nasi, sambal, dan lalapan lengkap.','Lihat menu','#menu'],
  ['banner-2.png','🍲','t2','PAKET KELUARGA mulai Rp 200.000','Paket Ber 4, Ber 6, dan Paket Jumbo Ber 8, lengkap dengan es teh dan es jeruk.','Lihat paket','#paket'],
- ['banner-3.png','🦐','t3','PAKET SEAFOOD','Seafood dengan saus, mulai Rp 65.000 untuk 1 porsi.','Pesan sekarang','#pesan'],
- ['banner-4.png','🍜','','NEW MENU: Uyeh Isem','Uyeh isem patin, gabus, dan nila,.','Lihat menu','#menu']
+ ['banner-3.png','🦐','t3','PAKET SEAFOOD TUMPAH','Seafood dengan saus, mulai Rp 65.000 untuk 1 porsi.','Pesan sekarang','#pesan'],
+ ['banner-4.png','🍜','','NEW MENU: Uyeh Isem','Uyeh isem patin, gabus, dan nila,','Lihat menu','#menu']
 ];
 
 const PAKET = [ // [nama, harga, label, isi "item|jumlah"]
