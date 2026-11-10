@@ -1,0 +1,4 @@
+Taruh foto di folder ini dengan nama file persis seperti di bawah. Kalau file belum ada, website otomatis menampilkan ikon cadangan.
+
+Banner (landscape, minimal 1600x900): banner-1.jpg (ikan/seruit), banner-2.jpg (paket keluarga), banner-3.jpg (seafood), banner-4.jpg (uyeh isem)
+Menu andalan (minimal 800x680): pindang-patin.jpg, aneka-seruit.jpg, gurame-bakar-jumbo.jpg, patin-bakar-jumbo.jpg, paket-seafood.jpg, olahan-ayam.jpg

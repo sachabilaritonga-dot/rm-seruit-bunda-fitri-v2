@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RM Seruit Bunda Fitri | Masakan Ikan dan Seruit Lampung</title>
+<meta name="description" content="Rumah Makan Seruit Bunda Fitri, Tunggal Warga, Banjar Agung, Lampung. Pindang, ikan bakar, seruit, seafood, dan paket keluarga. Pesan lewat WhatsApp.">
+<meta name="theme-color" content="#1f3a30">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav" id="nav"><div class="wrap nav-in">
+  <a href="#home" class="brand">RM Seruit <b>Bunda Fitri</b></a>
+  <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false"><i></i><i></i><i></i></button>
+  <nav id="links" aria-label="Navigasi utama">
+    <a href="#home">Beranda</a><a href="#favorit">Andalan</a><a href="#paket">Paket</a><a href="#menu">Daftar Menu</a><a href="#lokasi">Lokasi</a><a href="#pesan" class="btn sm">Pesan</a>
+  </nav>
+</div></header>
+
+<main>
+<section class="hero" id="home" aria-roledescription="carousel" aria-label="Banner promo">
+  <div class="slides" id="slides"></div>
+  <button class="arr prev" id="prev" aria-label="Banner sebelumnya">&#8249;</button>
+  <button class="arr next" id="next" aria-label="Banner berikutnya">&#8250;</button>
+  <div class="dots" id="dots"></div>
+</section>
+
+<section class="sec" id="favorit"><div class="wrap">
+  <div class="head rv"><h2>Menu andalan</h2><p>Beberapa hidangan yang bisa kamu coba.</p></div>
+  <div class="grid3 fav rv" id="fav"></div>
+</div></section>
+
+<section class="sec alt" id="paket"><div class="wrap">
+  <div class="head rv"><h2>Paket keluarga</h2><p>Pilih paket untuk 4, 6, atau 8 orang.</p></div>
+  <div class="grid3 rv" id="pkt"></div>
+</div></section>
+
+<section class="sec" id="menu"><div class="wrap">
+  <div class="head rv"><h2>Daftar menu</h2><p>Pilih kategori untuk melihat harga.</p></div>
+  <div class="tabs rv" id="tabs" role="tablist"></div>
+  <div class="panel" id="panel"></div>
+  <p class="note" id="note">Menu kategori Ikan dan Nasi &amp; Sop sudah termasuk nasi, sambal, dan lalapan lengkap.</p>
+</div></section>
+
+<section class="sec alt" id="lokasi"><div class="wrap loc">
+  <div class="rv">
+    <h2>Lokasi</h2>
+    <address>RM. Seruit Bunda Fitri<br>Tunggal Warga, Kec. Banjar Agung, Unit 2<br>Lampung 34684</address>
+    <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=RM.+Seruit+Bunda+Fitri,+Tunggal+Warga,+Kec.+Banjar+Agung,+Unit+2,+Lampung+34684">Buka di Google Maps</a>
+  </div>
+  <div class="map rv"><iframe title="Peta lokasi RM Seruit Bunda Fitri" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=RM.+Seruit+Bunda+Fitri,+Tunggal+Warga,+Kec.+Banjar+Agung,+Unit+2,+Lampung+34684&amp;output=embed"></iframe></div>
+</div></section>
+
+<section class="sec" id="pesan"><div class="wrap order">
+  <div class="rv">
+    <h2>Cara memesan</h2>
+    <p>Atas nama <b>Fitriah</b></p>
+    <a class="num" href="tel:+6282186937907">0821-8693-7907</a>
+    <ol class="steps"><li>Pilih menu atau paket.</li><li>Kirim pesananmu lewat WhatsApp.</li><li>Tunggu konfirmasi dari Bunda Fitri.</li></ol>
+    <a class="btn ghost" href="tel:+6282186937907">Telepon</a>
+  </div>
+  <form class="form rv" id="wa">
+    <label>Nama<input id="nm" required autocomplete="name" placeholder="Nama kamu"></label>
+    <label>Pesanan<textarea id="od" rows="4" required placeholder="Contoh: Paket Ber 4, 1 Pindang Patin, 2 Es Teh"></textarea></label>
+    <button class="btn" type="submit">Kirim lewat WhatsApp</button>
+  </form>
+</div></section>
+</main>
+
+<footer><div class="wrap"><b>RM Seruit Bunda Fitri</b><br>Tunggal Warga, Kec. Banjar Agung, Unit 2, Lampung 34684<br>WhatsApp 0821-8693-7907 (Fitriah) &copy; <span id="yr"></span></div></footer>
+<a class="fab" id="fab" target="_blank" rel="noopener">Chat WhatsApp</a>
+
+<script src="js/menu-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
